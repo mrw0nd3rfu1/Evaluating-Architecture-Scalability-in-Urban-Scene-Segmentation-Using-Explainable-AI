@@ -106,41 +106,6 @@ Typical workflow:
 
 ---
 
-## 🖼️ Adding Output Images (Predictions / Heatmaps)
-
-Create a folder in your repo such as:
-
-```
-/results
-/assets
-/images
-```
-
-Example structure:
-
-```
-repo/
- ├── SegFormer_B3_KITTI.ipynb
- ├── README.md
- └── results/
-      ├── prediction_example.png
-      ├── confidence_heatmap.png
-```
-
-Then display them inside this README using markdown:
-
-```md
-## Example Predictions
-![Prediction](results/prediction_example.png)
-
-## Confidence Heatmap
-![Heatmap](results/confidence_heatmap.png)
-```
-
-You can rename the folder anything — just update the image path.
-
----
-
 ## Explainable AI
 
 The notebook generates **confidence heatmaps** that visualize model certainty at pixel level, helping interpret segmentation predictions in real-world scenarios.
