@@ -81,7 +81,17 @@ Install dependencies.
 
 ## Usage
 
-Run the main notebook:
+Open the segformer-urban-segmentation-main folder for all the model training:
+
+```bash
+SegFormer_B3_CamVid.ipynb
+SegFormer_B3_IDD.ipynb
+SegFormer_B3_KITTI.ipynb
+SegFormer_B4_CamVid.ipynb
+SegFormer_B5_CamVid.ipynb
+```
+
+Run the xai notebook for visualization:
 
 ```bash
 SegFormer_B3_KITTI.ipynb
